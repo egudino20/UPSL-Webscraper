@@ -147,6 +147,8 @@ class upsl_scraper:
                                     home_score = row.find_element(By.XPATH, './td[4]').text.strip()
                                     away_score = row.find_element(By.XPATH, './td[5]').text.strip()
                                     venue = row.find_element(By.XPATH, './td[6]').text.strip()  # If you want to include the venue
+                                    season_element = self.driver.find_element(By.XPATH, '//*[@id="single__select-season"]/option[@selected="selected"]')
+                                    season = season_element.text.strip()  # Get the selected season text
 
                                     match_details.append({
                                         "Date": date,
@@ -162,11 +164,11 @@ class upsl_scraper:
                             self.close_driver()
 
                             # Create the "Matches" key if it doesn't exist
-                            if "Matches" not in team_info:
-                                team_info["Matches"] = []
+                            if f"Matches {season}" not in team_info:
+                                team_info[f"Matches {season}"] = []
 
                             # Append match details to the team's Matches key
-                            team_info["Matches"].extend(match_details)
+                            team_info[f"Matches {season}"].extend(match_details)
 
         # Save updated JSON
         with open(self.json_file, "w") as file:
