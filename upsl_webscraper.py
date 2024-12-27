@@ -3,6 +3,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
 
 class upsl_scraper:
     def __init__(self, base_url, json_file="upsl_data.json"):
@@ -13,6 +16,7 @@ class upsl_scraper:
     def initialize_driver(self):
         """Initialize the Selenium WebDriver."""
         options = Options()
+        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
         self.driver = webdriver.Chrome(options=options)
 
     def close_driver(self):
@@ -96,6 +100,79 @@ class upsl_scraper:
             json.dump(data, file, indent=4)
         print(f"Updated data saved to {self.json_file}")
 
+    def scrape_match_data(self):
+        """Scrape match details from the team schedule/results table and append to the 'Matches' key."""
+        with open(self.json_file, "r") as file:
+            data = json.load(file)
+
+        # Iterate through all conferences
+        for division_key, division_value in data["Division"].items():
+            for conference_key, conference_value in division_value["Conference"].items():
+                # Only process the Midwest Central Conference
+                if conference_key == "Midwest Central":
+                    for team_name, team_info in conference_value["Teams"].items():
+                        # Check if the roster is not empty
+                        if "Roster" in team_info and team_info["Roster"]:
+                            print(f"Scraping match details for {team_name}...")
+                            self.initialize_driver()
+                            self.driver.get(team_info["team_link"])  # Use the team's link to get match details
+
+                            # Wait for the schedule/results toggle to be present
+                            WebDriverWait(self.driver, 30).until(
+                                EC.presence_of_element_located((By.XPATH, '//h3[@data-toggle="upsl__show__results"]'))
+                            )
+
+                            # Click the Results toggle
+                            results_toggle = self.driver.find_element(By.XPATH, '//h3[@data-toggle="upsl__show__results"]')
+                            results_toggle.click()
+
+                            # Wait for the results table to be present
+                            WebDriverWait(self.driver, 30).until(
+                                EC.presence_of_element_located((By.XPATH, '//*[@id="single-team-schedule"]/tbody'))
+                            )
+
+                            # Print the page source for debugging
+                            print(self.driver.page_source)  # Check if the content is loaded correctly
+
+                            # Extract match details from the table
+                            match_rows = self.driver.find_elements(By.XPATH, '//*[@id="single-team-schedule"]/tbody/tr')
+                            match_details = []
+
+                            for row in match_rows:
+                                try:
+                                    # Extract relevant details
+                                    home_team = row.find_element(By.XPATH, './td[1]/a').text.strip()
+                                    away_team = row.find_element(By.XPATH, './td[2]/a').text.strip()
+                                    date = row.find_element(By.XPATH, './td[3]').text.strip()
+                                    home_score = row.find_element(By.XPATH, './td[4]').text.strip()
+                                    away_score = row.find_element(By.XPATH, './td[5]').text.strip()
+                                    venue = row.find_element(By.XPATH, './td[6]').text.strip()  # If you want to include the venue
+
+                                    match_details.append({
+                                        "Date": date,
+                                        "Home Team": home_team,
+                                        "Away Team": away_team,
+                                        "Home Score": home_score,
+                                        "Away Score": away_score,
+                                        "Venue": venue
+                                    })
+                                except NoSuchElementException as e:
+                                    print(f"Error extracting match details for {team_name}: {e}")
+
+                            self.close_driver()
+
+                            # Create the "Matches" key if it doesn't exist
+                            if "Matches" not in team_info:
+                                team_info["Matches"] = []
+
+                            # Append match details to the team's Matches key
+                            team_info["Matches"].extend(match_details)
+
+        # Save updated JSON
+        with open(self.json_file, "w") as file:
+            json.dump(data, file, indent=4)
+        print(f"Match details appended to {self.json_file}")
+
 
 # Add the __main__ block at the end of the script
 if __name__ == "__main__":
@@ -112,8 +189,10 @@ if __name__ == "__main__":
             scraper.scrape_team_links()
         elif command == "append_rosters":
             scraper.append_rosters()
+        elif command == "scrape_match_data":
+            scraper.scrape_match_data()
         else:
-            print("Unknown command. Use 'scrape_team_links' or 'append_rosters'.")
+            print("Unknown command. Use 'scrape_team_links', 'append_rosters', 'scrape_match_data'.")
     else:
-        print("No command provided. Use 'scrape_team_links' or 'append_rosters'.")
+        print("No command provided. Use 'scrape_team_links', 'append_rosters', 'scrape_match_data'.")
 

@@ -38473,6 +38473,88 @@
                                     "Position": "FORWARD",
                                     "Appearances": "N/A"
                                 }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/03/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "1",
+                                    "Away Score": "4",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "10/26/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "2",
+                                    "Away Score": "1",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "10/13/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "3",
+                                    "Away Score": "2",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": "THE MAC Turf Stadium"
+                                },
+                                {
+                                    "Date": "09/29/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "7",
+                                    "Away Score": "4",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "6",
+                                    "Away Score": "1",
+                                    "Venue": "Lions for Hope Sports Complex"
+                                },
+                                {
+                                    "Date": "09/15/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "0",
+                                    "Away Score": "2",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "09/07/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "Dunbar Park Turf"
+                                },
+                                {
+                                    "Date": "08/24/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "4",
+                                    "Away Score": "1",
+                                    "Venue": "Round Lake Dowling Park"
+                                },
+                                {
+                                    "Date": "08/18/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "2",
+                                    "Away Score": "1",
+                                    "Venue": "Redmond Park"
+                                }
                             ]
                         },
                         "Berber City FC": {
@@ -38769,6 +38851,88 @@
                                     "Position": "FORWARD",
                                     "Appearances": "N/A"
                                 }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/02/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "Dunbar Park Turf"
+                                },
+                                {
+                                    "Date": "10/27/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "1",
+                                    "Away Score": "4",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/19/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "1",
+                                    "Away Score": "0",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "10/12/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "0",
+                                    "Away Score": "5",
+                                    "Venue": "Dunbar Park Turf"
+                                },
+                                {
+                                    "Date": "10/06/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "4",
+                                    "Away Score": "2",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "Dunbar Park Turf"
+                                },
+                                {
+                                    "Date": "09/28/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": "Dunbar Park Turf"
+                                },
+                                {
+                                    "Date": "09/22/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "3",
+                                    "Away Score": "2",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "09/18/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "0",
+                                    "Away Score": "2",
+                                    "Venue": "Redmond Recreational Complex"
+                                },
+                                {
+                                    "Date": "09/07/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "Dunbar Park Turf"
+                                }
                             ]
                         },
                         "Black Cat FC": {
@@ -39064,6 +39228,120 @@
                                     "Player": "Roberto Cardano",
                                     "Position": "FORWARD",
                                     "Appearances": "N/A"
+                                }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/30/2024",
+                                    "Home Team": "Fut Ohio SC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "1",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/23/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "3",
+                                    "Away Score": "4",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/10/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "3",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/08/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/03/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "1",
+                                    "Away Score": "4",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/26/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/19/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "4",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/13/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/28/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "2",
+                                    "Away Score": "3",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/08/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "9",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "08/24/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "1",
+                                    "Away Score": "1",
+                                    "Venue": ""
                                 }
                             ]
                         },
@@ -39641,38 +39919,102 @@
                                     "Position": "FORWARD",
                                     "Appearances": "N/A"
                                 }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/08/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "Lions for Hope Sports Complex"
+                                },
+                                {
+                                    "Date": "11/02/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "6",
+                                    "Away Score": "0",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/26/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": "THE MAC Turf Stadium"
+                                },
+                                {
+                                    "Date": "10/12/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "7",
+                                    "Away Score": "2",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/06/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "3",
+                                    "Away Score": "5",
+                                    "Venue": "Lions for Hope Sports Complex"
+                                },
+                                {
+                                    "Date": "09/27/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "09/22/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "3",
+                                    "Away Score": "2",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "09/15/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "0",
+                                    "Away Score": "2",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "09/07/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "1",
+                                    "Away Score": "1",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "08/24/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "1",
+                                    "Away Score": "1",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "08/17/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "1",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                }
                             ]
                         },
                         "Chicago Soccer Academy Fox Valley": {
                             "team_id": "361990",
                             "team_link": "https://premier.upsl.com/teams/chicago-soccer-academy-fox-valley-361990",
-                            "Roster": [
-                                {
-                                    "Player": "Player 1",
-                                    "Position": "COMING SOON",
-                                    "Appearances": "N/A"
-                                },
-                                {
-                                    "Player": "Player 2",
-                                    "Position": "COMING SOON",
-                                    "Appearances": "N/A"
-                                },
-                                {
-                                    "Player": "Player 3",
-                                    "Position": "COMING SOON",
-                                    "Appearances": "N/A"
-                                },
-                                {
-                                    "Player": "Player 4",
-                                    "Position": "COMING SOON",
-                                    "Appearances": "N/A"
-                                },
-                                {
-                                    "Player": "Player 5",
-                                    "Position": "COMING SOON",
-                                    "Appearances": "N/A"
-                                }
-                            ]
+                            "Roster": []
                         },
                         "Chicago Strikers": {
                             "team_id": "815137",
@@ -39942,6 +40284,88 @@
                                     "Player": "Peter Ngoma",
                                     "Position": "DEFENSE",
                                     "Appearances": "N/A"
+                                }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/02/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "6",
+                                    "Away Score": "0",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/27/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "1",
+                                    "Away Score": "4",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/19/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "0",
+                                    "Away Score": "3",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/13/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "3",
+                                    "Away Score": "2",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "09/29/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "8",
+                                    "Away Score": "1",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "2",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "2",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "08/25/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "1",
+                                    "Away Score": "5",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "08/17/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "United SC",
+                                    "Home Score": "1",
+                                    "Away Score": "4",
+                                    "Venue": "Nike Sports Complex"
                                 }
                             ]
                         },
@@ -40244,6 +40668,112 @@
                                     "Position": "MIDFIELD",
                                     "Appearances": "N/A"
                                 }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/23/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "3",
+                                    "Away Score": "4",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/10/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "1",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/08/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "United SC",
+                                    "Home Score": "3",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/03/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "1",
+                                    "Away Score": "6",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/26/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/19/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "0",
+                                    "Away Score": "3",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/12/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "0",
+                                    "Away Score": "5",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/28/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "4",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "2",
+                                    "Away Score": "3",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/08/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "08/17/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "10",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                }
                             ]
                         },
                         "Diverse City FC Youth Academy": {
@@ -40523,6 +41053,96 @@
                                     "Player": "Jacob D. Kotapka",
                                     "Position": "FORWARD",
                                     "Appearances": "N/A"
+                                }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/10/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "1",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/02/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "1",
+                                    "Away Score": "3",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/13/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "8",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/29/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "8",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/27/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/18/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "0",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "5",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/08/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "1",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "08/18/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "2",
+                                    "Away Score": "1",
+                                    "Venue": ""
                                 }
                             ]
                         },
@@ -40940,6 +41560,88 @@
                                     "Position": "--",
                                     "Appearances": "N/A"
                                 }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/02/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "Dunbar Park Turf"
+                                },
+                                {
+                                    "Date": "10/26/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "2",
+                                    "Away Score": "1",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "10/12/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "1",
+                                    "Away Score": "1",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "8",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "09/28/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": "Olympic Park Schaumburg"
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "2",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "09/08/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "3",
+                                    "Away Score": "0",
+                                    "Venue": "THE MAC Turf Stadium"
+                                },
+                                {
+                                    "Date": "08/31/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "14",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "08/24/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "4",
+                                    "Away Score": "2",
+                                    "Venue": "Lions for Hope Sports Complex"
+                                },
+                                {
+                                    "Date": "08/17/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "1",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                }
                             ]
                         },
                         "Round Lake Evolution FC": {
@@ -41211,6 +41913,96 @@
                                     "Position": "FORWARD",
                                     "Appearances": "N/A"
                                 }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/10/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "3",
+                                    "Venue": "Libertyville Township Soccer Complex"
+                                },
+                                {
+                                    "Date": "11/02/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "1",
+                                    "Away Score": "3",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "10/26/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": "Olympic Park Schaumburg"
+                                },
+                                {
+                                    "Date": "10/19/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "1",
+                                    "Away Score": "0",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "10/12/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "1",
+                                    "Away Score": "1",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "10/05/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "0",
+                                    "Away Score": "1",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "09/28/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "4",
+                                    "Away Score": "1",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "2",
+                                    "Away Score": "13",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "4",
+                                    "Away Score": "0",
+                                    "Venue": "Round Lake High School"
+                                },
+                                {
+                                    "Date": "09/07/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "1",
+                                    "Away Score": "1",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "08/24/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "4",
+                                    "Away Score": "1",
+                                    "Venue": "Round Lake Dowling Park"
+                                }
                             ]
                         },
                         "United SC": {
@@ -41381,6 +42173,96 @@
                                     "Player": "Alan Trejo",
                                     "Position": "DEFENSE",
                                     "Appearances": "N/A"
+                                }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "11/08/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "United SC",
+                                    "Home Score": "3",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "11/03/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Diverse City FC Pro Academy",
+                                    "Home Score": "1",
+                                    "Away Score": "6",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/27/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "3",
+                                    "Away Score": "5",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/19/2024",
+                                    "Home Team": "Black Cat FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "4",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "10/06/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Chicago Nation FC",
+                                    "Home Score": "3",
+                                    "Away Score": "5",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/28/2024",
+                                    "Home Team": "Berber City FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "2",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Allegiant FC Hammond",
+                                    "Home Score": "6",
+                                    "Away Score": "1",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "Round Lake Evolution FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "4",
+                                    "Away Score": "0",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "09/08/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "KS Wisloka Chicago",
+                                    "Home Score": "1",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "08/24/2024",
+                                    "Home Team": "United SC",
+                                    "Away Team": "Panathinaikos Chicago",
+                                    "Home Score": "4",
+                                    "Away Score": "2",
+                                    "Venue": ""
+                                },
+                                {
+                                    "Date": "08/17/2024",
+                                    "Home Team": "Chicago Strikers",
+                                    "Away Team": "United SC",
+                                    "Home Score": "1",
+                                    "Away Score": "4",
+                                    "Venue": ""
                                 }
                             ]
                         },
@@ -41662,6 +42544,88 @@
                                     "Player": "Bryan I. Mendoza",
                                     "Position": "DEFENSE",
                                     "Appearances": "N/A"
+                                }
+                            ],
+                            "Matches": [
+                                {
+                                    "Date": "10/27/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "United SC",
+                                    "Home Score": "3",
+                                    "Away Score": "5",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "10/12/2024",
+                                    "Home Team": "Chicago Nation FC",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "7",
+                                    "Away Score": "2",
+                                    "Venue": "College of DuPage Stadium"
+                                },
+                                {
+                                    "Date": "10/06/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Berber City FC",
+                                    "Home Score": "4",
+                                    "Away Score": "2",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "09/29/2024",
+                                    "Home Team": "Allegiant FC Hammond",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "7",
+                                    "Away Score": "4",
+                                    "Venue": "Hammond Central"
+                                },
+                                {
+                                    "Date": "09/21/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Round Lake Evolution FC",
+                                    "Home Score": "2",
+                                    "Away Score": "13",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "09/14/2024",
+                                    "Home Team": "KS Wisloka Chicago",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "5",
+                                    "Away Score": "1",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "09/08/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Black Cat FC",
+                                    "Home Score": "0",
+                                    "Away Score": "9",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "08/31/2024",
+                                    "Home Team": "Panathinaikos Chicago",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "14",
+                                    "Away Score": "0",
+                                    "Venue": "Redmond Park"
+                                },
+                                {
+                                    "Date": "08/25/2024",
+                                    "Home Team": "Urbana City FC",
+                                    "Away Team": "Chicago Strikers",
+                                    "Home Score": "1",
+                                    "Away Score": "5",
+                                    "Venue": "Rantoul Family Sports Complex"
+                                },
+                                {
+                                    "Date": "08/17/2024",
+                                    "Home Team": "Diverse City FC Pro Academy",
+                                    "Away Team": "Urbana City FC",
+                                    "Home Score": "10",
+                                    "Away Score": "0",
+                                    "Venue": "Glendbard North High School"
                                 }
                             ]
                         }
