@@ -1,3 +1,4 @@
+import pandas as pd
 import json
 import time
 from selenium import webdriver
@@ -175,6 +176,56 @@ class upsl_scraper:
             json.dump(data, file, indent=4)
         print(f"Match details appended to {self.json_file}")
 
+    def json_to_dataframe(self, csv_file="midwest_central_matches.csv"):
+        """Convert Midwest Central Conference match data to a DataFrame and export to CSV."""
+        with open(self.json_file, "r") as file:
+            data = json.load(file)
+
+        matches_data = []
+
+        # Extract match data for the Midwest Central Conference
+        for division_key, division_value in data["Division"].items():
+            for conference_key, conference_value in division_value["Conference"].items():
+                if conference_key == "Midwest Central":
+                    for team_name, team_info in conference_value["Teams"].items():
+                        for season_key, matches in team_info.items():
+                            if season_key.startswith("Matches"):
+                                season = season_key.replace("Matches ", "")
+                                for match in matches:
+                                    match_details = {
+                                        "Division": division_key,
+                                        "Conference": conference_key,
+                                        "Date": match["Date"],
+                                        "Home Team": match["Home Team"],
+                                        "Away Team": match["Away Team"],
+                                        "Home Score": match["Home Score"],
+                                        "Away Score": match["Away Score"],
+                                        "Venue": match["Venue"],
+                                        "Season": season,
+                                        "Video Collected": "",  # Placeholder for future data
+                                        "Source": "",  # Placeholder for future data
+                                        "Link": ""
+                                    }
+                                    matches_data.append(match_details)
+
+        # Convert to DataFrame
+        df = pd.DataFrame(matches_data)
+
+        # Remove duplicates
+        df = df.drop_duplicates(subset=['Division', 'Conference', 'Date', 'Home Team', 'Away Team', 'Home Score', 'Away Score'])
+
+        # Convert date column to datetime
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+
+        # Sort by date
+        df = df.sort_values(by='Date')
+
+        # Export to CSV
+        df.to_csv(csv_file, index=False)
+        print(f"Data exported to {csv_file}")
+
+        return df
+
 
 # Add the __main__ block at the end of the script
 if __name__ == "__main__":
@@ -193,8 +244,11 @@ if __name__ == "__main__":
             scraper.append_rosters()
         elif command == "scrape_match_data":
             scraper.scrape_match_data()
+        elif command == "convert_to_dataframe":
+            df = scraper.json_to_dataframe()
+            print(df.head()) # Display first few rows
         else:
-            print("Unknown command. Use 'scrape_team_links', 'append_rosters', 'scrape_match_data'.")
+            print("Unknown command. Use 'scrape_team_links', 'append_rosters', 'scrape_match_data', 'convert_to_dataframe'.")
     else:
-        print("No command provided. Use 'scrape_team_links', 'append_rosters', 'scrape_match_data'.")
+        print("No command provided. Use 'scrape_team_links', 'append_rosters', 'scrape_match_data', 'convert_to_dataframe.")
 
